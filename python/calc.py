@@ -1,17 +1,23 @@
 #functions for performing math opperations
 
 def add(num1,num2):
-    total = num1+num2
-    return print(total)
+    result = num1+num2
+    print(result)
+    return result
 def subtract(num1,num2):
-    total = num1-num2
-    return print(total)
+    result = num1-num2
+    print(result)
+    return result
 def multiply(num1,num2):
-    total = num1*num2
-    return print(total)
+    result = num1*num2
+    print(result)
+    return result
 def divide(num1,num2):
-    total = num1+num2
-    return print(total)
+    result = num1/num2
+    print(result)
+    return result
+
+
 
 #function called on script execute, takes user input based on the options given.
 def input_handler():
@@ -31,6 +37,8 @@ def input_handler():
         print('enter within 2-4')
     except:
         print('something went wrong')
+
+
 
 def perform_calc(chosen_opp):
     #calls respective function, takes user input, then calls the respective function passing off the users input as arguements
